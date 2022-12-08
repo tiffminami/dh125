@@ -1,6 +1,7 @@
 # dh125
 
-## This repository is to compile the data sets used for the DH 125 Project. In our project, we focused on Crime Data in LA County from 2020 to Present. 
+## This repository is to compile the data sets used for our DH 125 Project. For our project, we used "Crime Data in LA County from 2020 to Present" and cleaned, subsetted, and transformed the original data. 
+##
 ### The **original dataset** is from [Los Angeles Open Data](https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/2nrs-mtv8). This dataset was too large in its original and compressed .zip file form, so it could not be uploaded onto GitHub. The link to the dataset is [here](https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/2nrs-mtv8) as well as in our references.
 ## 
 ### The **cleaned_crime_data.csv** file is from our initial clean. We knew that we wanted to focus on the Victim's demographics. Thus, when looking at the data, we realized that many of the rows were empty. We wanted to clean the data. We first filled the blank spaces with "NA" values in the "Vict.Age", "Weapon.Used.Cd", and "Vict.Sex" columns. We then omitted the rows with "NA" values. After cleaning the data, we removed rows that were not of interest, as we wanted to focus on the data most relevant to our research questions. 
